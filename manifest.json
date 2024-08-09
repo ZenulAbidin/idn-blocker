@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "IDNblock Punycode Filter",
     "version": "1.0",
-    "description": "Protect yourself from potential phishing attacks by automatically blocking internationalized domain names (IDNs) that use Punycode encoding. This extension filters out suspicious URLs that could disguise malicious websites with look-alike characters, ensuring a safer browsing experience. Easily manage a whitelist to allow trusted domains.",
+    "description": "Protect yourself from phishing attacks by automatically blocking internationalized domain names (IDNs) that use Punycode encoding.",
     "permissions": [
       "declarativeNetRequest",
       "declarativeNetRequestWithHostAccess",
