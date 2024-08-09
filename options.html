@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDNblock Settings</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/options-styles.css">
+</head>
+<body>
+  <header>
+    <img src="images/icon128.png" alt="IDNblock Logo" class="logo">
+    <h1>IDNblock Settings</h1>
+  </header>
+
+  <main class="">
+    <label for="whitelist">Whitelist (one domain per line):</label>
+    <textarea id="whitelist" placeholder="Add domains here, one per line, without http:// or https:// prefix"></textarea>
+    <a class="action-button" id="save">Save Changes</a>
+  </main>
+
+  <div class="about container">
+    <h2>About</h2>
+    <p>IDNblock 1.0 by Zenul_Abidin</p>
+    <p>This extension is open source. Feel free to contribute bug reports and changes to the <a href='https://github.com/ZenulAbidin/idn-blocker' target='_blank' rel='nofollower noopener'>GitHub repository</a>.</p>
+    <p>You can also donate to the project if you like.</p>
+    <a class="support-button" href="https://patreon.com/zenulabidin">Become a Patron</a>
+  </div>
+
+  <script src="scripts/options.js"></script>
+</body>
+</html>

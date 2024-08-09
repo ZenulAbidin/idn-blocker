@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>IDN Blocker</title>
-  <style>
-    body { font-family: Arial, sans-serif; }
-    #status { margin-top: 10px; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDNblock</title>
+  <link rel="stylesheet" href="css/popup-styles.css">
 </head>
 <body>
-  <h1>IDN Blocker</h1>
-  <div id="status">IDN blocking is active.</div>
-  <script src="popup.js"></script>
+  <div class="container">
+    <img src="images/icon128.png" alt="IDNblock Logo" class="logo">
+    <h1>Congratulations!</h1>
+    <p id="status">Punycode blocking is active.</p>
+    <a href="options.html" target="_blank" class="settings-button">Settings</a>
+  </div>
+  <script src="scripts/popup.js"></script>
 </body>
 </html>

@@ -1,17 +1,16 @@
 {
     "manifest_version": 3,
-    "name": "IDN Blocker",
+    "name": "IDNblock Punycode Filter",
     "version": "1.0",
-    "description": "Blocks internationalized domain names (IDNs).",
+    "description": "IDN and punycode filter - Blocks internationalized domain names (IDNs).",
     "permissions": [
-      "webRequest",
-      "webRequestBlocking",
       "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess",
       "tabs",
       "storage"
     ],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "scripts/background.js"
     },
     "action": {
       "default_popup": "popup.html",
@@ -26,21 +25,6 @@
       "48": "images/icon48.png",
       "128": "images/icon128.png"
     },
-    "chrome_url_overrides": {
-      "newtab": "landing.html"
-    },
-    "chrome_settings_overrides": {
-      "homepage": "landing.html"
-    },
-    "theme": {
-      "colors": {
-        "frame": [66, 133, 244],
-        "toolbar": [66, 133, 244],
-        "tab_text": [255, 255, 255],
-        "bookmark_text": [255, 255, 255],
-        "ntp_background": [66, 133, 244],
-        "ntp_text": [255, 255, 255]
-      }
-    }
+    "options_page": "options.html"
   }
   
