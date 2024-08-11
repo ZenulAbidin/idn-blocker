@@ -6,7 +6,6 @@
     "permissions": [
       "declarativeNetRequest",
       "declarativeNetRequestWithHostAccess",
-      "tabs",
       "storage"
     ],
     "background": {
